@@ -1,0 +1,81 @@
+{
+  "brand": "Build with Kinetic",
+  "palette": "Slate & Steel",
+  "defaultTheme": "light",
+  "brandColours": {
+    "slate": "#416377",
+    "ink": "#172129",
+    "page": "#F6F7F5",
+    "surface": "#FFFFFF",
+    "secondary-text": "#5F6D74",
+    "divider": "#D8E0E1"
+  },
+  "themes": {
+    "light": {
+      "background": "#F6F7F5",
+      "foreground": "#172129",
+      "surface": "#FFFFFF",
+      "muted": "#5F6D74",
+      "border": "#D8E0E1",
+      "input-border": "#7C8495",
+      "link": "#34566D",
+      "focus": "#34566D",
+      "primary": "#416377",
+      "primary-foreground": "#FFFFFF",
+      "primary-hover": "#2F4D61"
+    },
+    "dark": {
+      "background": "#172129",
+      "foreground": "#FFFFFF",
+      "surface": "#25333C",
+      "muted": "#C0CDD4",
+      "border": "#677F8E",
+      "input-border": "#C0CDD4",
+      "link": "#BCD6E8",
+      "focus": "#BCD6E8",
+      "primary": "#416377",
+      "primary-foreground": "#FFFFFF",
+      "primary-hover": "#2F4D61"
+    }
+  },
+  "statusColours": {
+    "light": {
+      "success": {
+        "foreground": "#166534",
+        "background": "#DCFCE7"
+      },
+      "warning": {
+        "foreground": "#92400E",
+        "background": "#FEF3C7"
+      },
+      "error": {
+        "foreground": "#B42318",
+        "background": "#FEE4E2"
+      }
+    },
+    "dark": {
+      "success": {
+        "foreground": "#86EFAC",
+        "background": "#123523"
+      },
+      "warning": {
+        "foreground": "#FCD34D",
+        "background": "#3D2C0B"
+      },
+      "error": {
+        "foreground": "#FDA29B",
+        "background": "#3B1715"
+      }
+    }
+  },
+  "logoMaster": "Approved first BWK refinement; unchanged outlined geometry",
+  "contrastRatios": {
+    "CTA": 6.41,
+    "hover": 8.92,
+    "body": 15.2,
+    "secondary": 4.98,
+    "lightLink": 7.24,
+    "darkLink": 10.83,
+    "darkSecondary": 7.99
+  }
+}

@@ -1,0 +1,308 @@
+{
+  "brand": "Build with Kinetic",
+  "approved_master": "First BWK refinement",
+  "colour_palette": [
+    "#000000",
+    "#FFFFFF"
+  ],
+  "all_lettering_outlined": true,
+  "file_count_without_inventory": 74,
+  "files": [
+    {
+      "path": "00-Approved-Reference/BWK-Approved-First-Refinement.png",
+      "bytes": 697843
+    },
+    {
+      "path": "01-Vector-SVG/BWK-monogram-black.svg",
+      "bytes": 3810
+    },
+    {
+      "path": "01-Vector-SVG/BWK-monogram-white.svg",
+      "bytes": 3810
+    },
+    {
+      "path": "01-Vector-SVG/BWK-primary-black.svg",
+      "bytes": 17042
+    },
+    {
+      "path": "01-Vector-SVG/BWK-primary-white.svg",
+      "bytes": 17042
+    },
+    {
+      "path": "01-Vector-SVG/BWK-stacked-black.svg",
+      "bytes": 17039
+    },
+    {
+      "path": "01-Vector-SVG/BWK-stacked-white.svg",
+      "bytes": 17039
+    },
+    {
+      "path": "01-Vector-SVG/BWK-wordmark-black.svg",
+      "bytes": 13423
+    },
+    {
+      "path": "01-Vector-SVG/BWK-wordmark-white.svg",
+      "bytes": 13423
+    },
+    {
+      "path": "02-Print-PDF-EPS/BWK-monogram-black-on-white.pdf",
+      "bytes": 3600
+    },
+    {
+      "path": "02-Print-PDF-EPS/BWK-monogram-black.eps",
+      "bytes": 5291
+    },
+    {
+      "path": "02-Print-PDF-EPS/BWK-monogram-white-on-black.pdf",
+      "bytes": 3625
+    },
+    {
+      "path": "02-Print-PDF-EPS/BWK-monogram-white.eps",
+      "bytes": 5291
+    },
+    {
+      "path": "02-Print-PDF-EPS/BWK-primary-black-on-white.pdf",
+      "bytes": 10507
+    },
+    {
+      "path": "02-Print-PDF-EPS/BWK-primary-black.eps",
+      "bytes": 24278
+    },
+    {
+      "path": "02-Print-PDF-EPS/BWK-primary-white-on-black.pdf",
+      "bytes": 10532
+    },
+    {
+      "path": "02-Print-PDF-EPS/BWK-primary-white.eps",
+      "bytes": 24278
+    },
+    {
+      "path": "02-Print-PDF-EPS/BWK-stacked-black-on-white.pdf",
+      "bytes": 10515
+    },
+    {
+      "path": "02-Print-PDF-EPS/BWK-stacked-black.eps",
+      "bytes": 24277
+    },
+    {
+      "path": "02-Print-PDF-EPS/BWK-stacked-white-on-black.pdf",
+      "bytes": 10540
+    },
+    {
+      "path": "02-Print-PDF-EPS/BWK-stacked-white.eps",
+      "bytes": 24277
+    },
+    {
+      "path": "02-Print-PDF-EPS/BWK-wordmark-black-on-white.pdf",
+      "bytes": 8337
+    },
+    {
+      "path": "02-Print-PDF-EPS/BWK-wordmark-black.eps",
+      "bytes": 19304
+    },
+    {
+      "path": "02-Print-PDF-EPS/BWK-wordmark-white-on-black.pdf",
+      "bytes": 8366
+    },
+    {
+      "path": "02-Print-PDF-EPS/BWK-wordmark-white.eps",
+      "bytes": 19304
+    },
+    {
+      "path": "03-Transparent-PNG/BWK-monogram-black-1024.png",
+      "bytes": 22450
+    },
+    {
+      "path": "03-Transparent-PNG/BWK-monogram-black-2048.png",
+      "bytes": 50797
+    },
+    {
+      "path": "03-Transparent-PNG/BWK-monogram-black-512.png",
+      "bytes": 10410
+    },
+    {
+      "path": "03-Transparent-PNG/BWK-monogram-white-1024.png",
+      "bytes": 20197
+    },
+    {
+      "path": "03-Transparent-PNG/BWK-monogram-white-2048.png",
+      "bytes": 45700
+    },
+    {
+      "path": "03-Transparent-PNG/BWK-monogram-white-512.png",
+      "bytes": 9451
+    },
+    {
+      "path": "03-Transparent-PNG/BWK-primary-black-1200.png",
+      "bytes": 29400
+    },
+    {
+      "path": "03-Transparent-PNG/BWK-primary-black-2400.png",
+      "bytes": 64041
+    },
+    {
+      "path": "03-Transparent-PNG/BWK-primary-black-4800.png",
+      "bytes": 143136
+    },
+    {
+      "path": "03-Transparent-PNG/BWK-primary-white-1200.png",
+      "bytes": 26730
+    },
+    {
+      "path": "03-Transparent-PNG/BWK-primary-white-2400.png",
+      "bytes": 58605
+    },
+    {
+      "path": "03-Transparent-PNG/BWK-primary-white-4800.png",
+      "bytes": 131161
+    },
+    {
+      "path": "03-Transparent-PNG/BWK-stacked-black-2400.png",
+      "bytes": 131520
+    },
+    {
+      "path": "03-Transparent-PNG/BWK-stacked-white-2400.png",
+      "bytes": 120145
+    },
+    {
+      "path": "03-Transparent-PNG/BWK-wordmark-black-2400.png",
+      "bytes": 79886
+    },
+    {
+      "path": "03-Transparent-PNG/BWK-wordmark-white-2400.png",
+      "bytes": 73577
+    },
+    {
+      "path": "04-Solid-Background-JPG/BWK-primary-black-on-white-2400.jpg",
+      "bytes": 108618
+    },
+    {
+      "path": "04-Solid-Background-JPG/BWK-primary-white-on-black-2400.jpg",
+      "bytes": 108651
+    },
+    {
+      "path": "05-Social-Profile/BWK-profile-black-on-white-1024.png",
+      "bytes": 30290
+    },
+    {
+      "path": "05-Social-Profile/BWK-profile-black-on-white-512.png",
+      "bytes": 12313
+    },
+    {
+      "path": "05-Social-Profile/BWK-profile-black-on-white.svg",
+      "bytes": 3869
+    },
+    {
+      "path": "05-Social-Profile/BWK-profile-white-on-black-1024.png",
+      "bytes": 30282
+    },
+    {
+      "path": "05-Social-Profile/BWK-profile-white-on-black-512.png",
+      "bytes": 11920
+    },
+    {
+      "path": "05-Social-Profile/BWK-profile-white-on-black.svg",
+      "bytes": 3869
+    },
+    {
+      "path": "06-Web-App-Icons/apple-touch-icon-black-on-white-180.png",
+      "bytes": 3573
+    },
+    {
+      "path": "06-Web-App-Icons/apple-touch-icon-white-on-black-180.png",
+      "bytes": 3471
+    },
+    {
+      "path": "06-Web-App-Icons/favicon-black-on-white-16.png",
+      "bytes": 407
+    },
+    {
+      "path": "06-Web-App-Icons/favicon-black-on-white-32.png",
+      "bytes": 724
+    },
+    {
+      "path": "06-Web-App-Icons/favicon-black-on-white-48.png",
+      "bytes": 1132
+    },
+    {
+      "path": "06-Web-App-Icons/favicon-black-on-white-64.png",
+      "bytes": 1446
+    },
+    {
+      "path": "06-Web-App-Icons/favicon-black-on-white.ico",
+      "bytes": 32038
+    },
+    {
+      "path": "06-Web-App-Icons/favicon-black-on-white.svg",
+      "bytes": 3869
+    },
+    {
+      "path": "06-Web-App-Icons/favicon-white-on-black-16.png",
+      "bytes": 402
+    },
+    {
+      "path": "06-Web-App-Icons/favicon-white-on-black-32.png",
+      "bytes": 715
+    },
+    {
+      "path": "06-Web-App-Icons/favicon-white-on-black-48.png",
+      "bytes": 1136
+    },
+    {
+      "path": "06-Web-App-Icons/favicon-white-on-black-64.png",
+      "bytes": 1440
+    },
+    {
+      "path": "06-Web-App-Icons/favicon-white-on-black.ico",
+      "bytes": 32038
+    },
+    {
+      "path": "06-Web-App-Icons/favicon-white-on-black.svg",
+      "bytes": 3869
+    },
+    {
+      "path": "06-Web-App-Icons/icon-black-on-white-192.png",
+      "bytes": 3729
+    },
+    {
+      "path": "06-Web-App-Icons/icon-black-on-white-512.png",
+      "bytes": 12313
+    },
+    {
+      "path": "06-Web-App-Icons/icon-white-on-black-192.png",
+      "bytes": 3709
+    },
+    {
+      "path": "06-Web-App-Icons/icon-white-on-black-512.png",
+      "bytes": 11920
+    },
+    {
+      "path": "06-Web-App-Icons/maskable-icon-black-on-white-512.png",
+      "bytes": 12313
+    },
+    {
+      "path": "06-Web-App-Icons/maskable-icon-white-on-black-512.png",
+      "bytes": 11920
+    },
+    {
+      "path": "06-Web-App-Icons/site.webmanifest",
+      "bytes": 549
+    },
+    {
+      "path": "07-Guidelines/BWK-Logo-Guide.pdf",
+      "bytes": 66066
+    },
+    {
+      "path": "BWK-Logo-Overview.png",
+      "bytes": 148288
+    },
+    {
+      "path": "README.md",
+      "bytes": 2939
+    },
+    {
+      "path": "asset-inventory.json",
+      "bytes": 7204
+    }
+  ]
+}

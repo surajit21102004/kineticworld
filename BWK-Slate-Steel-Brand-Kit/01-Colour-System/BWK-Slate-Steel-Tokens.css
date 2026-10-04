@@ -1,0 +1,51 @@
+/* Build with Kinetic / Slate & Steel. Light by default. */
+:root {
+  --bwk-brand-slate: #416377;
+  --bwk-brand-ink: #172129;
+  --bwk-brand-page: #F6F7F5;
+  --bwk-brand-surface: #FFFFFF;
+  --bwk-brand-secondary-text: #5F6D74;
+  --bwk-brand-divider: #D8E0E1;
+}
+:root, [data-bwk-theme="light"] {
+  --bwk-background: #F6F7F5;
+  --bwk-foreground: #172129;
+  --bwk-surface: #FFFFFF;
+  --bwk-muted: #5F6D74;
+  --bwk-border: #D8E0E1;
+  --bwk-input-border: #7C8495;
+  --bwk-link: #34566D;
+  --bwk-focus: #34566D;
+  --bwk-primary: #416377;
+  --bwk-primary-foreground: #FFFFFF;
+  --bwk-primary-hover: #2F4D61;
+  --bwk-success-foreground: #166534;
+  --bwk-success-background: #DCFCE7;
+  --bwk-warning-foreground: #92400E;
+  --bwk-warning-background: #FEF3C7;
+  --bwk-error-foreground: #B42318;
+  --bwk-error-background: #FEE4E2;
+  color-scheme: light;
+}
+[data-bwk-theme="dark"], .bwk-dark-section {
+  --bwk-background: #172129;
+  --bwk-foreground: #FFFFFF;
+  --bwk-surface: #25333C;
+  --bwk-muted: #C0CDD4;
+  --bwk-border: #677F8E;
+  --bwk-input-border: #C0CDD4;
+  --bwk-link: #BCD6E8;
+  --bwk-focus: #BCD6E8;
+  --bwk-primary: #416377;
+  --bwk-primary-foreground: #FFFFFF;
+  --bwk-primary-hover: #2F4D61;
+  --bwk-success-foreground: #86EFAC;
+  --bwk-success-background: #123523;
+  --bwk-warning-foreground: #FCD34D;
+  --bwk-warning-background: #3D2C0B;
+  --bwk-error-foreground: #FDA29B;
+  --bwk-error-background: #3B1715;
+  color-scheme: dark;
+}
+/* Example: background: var(--bwk-background); color: var(--bwk-foreground); */
+/* Buttons: --bwk-primary / --bwk-primary-foreground; hover: --bwk-primary-hover. */
