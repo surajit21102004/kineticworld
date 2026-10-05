@@ -3,16 +3,29 @@ const router = express.Router();
 const fs = require('fs');
 const path = require('path');
 
-const leadsFilePath = path.join(__dirname, '../data/leads.json');
+const defaultLeadsFilePath = path.join(__dirname, '../data/leads.json');
+const tmpLeadsFilePath = path.join('/tmp', 'leads.json');
+
+const getLeadsFilePath = () => {
+  if (fs.existsSync(tmpLeadsFilePath)) return tmpLeadsFilePath;
+  return defaultLeadsFilePath;
+};
 
 // Helper to read leads
 const getLeads = () => {
   try {
-    if (!fs.existsSync(leadsFilePath)) {
-      fs.writeFileSync(leadsFilePath, JSON.stringify([]));
+    const filePath = getLeadsFilePath();
+    if (!fs.existsSync(filePath)) {
+      try {
+        fs.writeFileSync(filePath, JSON.stringify([]));
+      } catch (e) {
+        // Fallback to /tmp if primary fails
+        fs.writeFileSync(tmpLeadsFilePath, JSON.stringify([]));
+        return [];
+      }
       return [];
     }
-    const data = fs.readFileSync(leadsFilePath, 'utf8');
+    const data = fs.readFileSync(filePath, 'utf8');
     return JSON.parse(data || '[]');
   } catch (err) {
     console.error('Error reading leads file:', err);
@@ -23,13 +36,19 @@ const getLeads = () => {
 // Helper to save leads
 const saveLeads = (leads) => {
   try {
-    const dir = path.dirname(leadsFilePath);
+    const filePath = getLeadsFilePath();
+    const dir = path.dirname(filePath);
     if (!fs.existsSync(dir)) {
       fs.mkdirSync(dir, { recursive: true });
     }
-    fs.writeFileSync(leadsFilePath, JSON.stringify(leads, null, 2));
+    fs.writeFileSync(filePath, JSON.stringify(leads, null, 2));
   } catch (err) {
-    console.error('Error writing leads file:', err);
+    console.error('Error writing to primary leads file, using /tmp fallback:', err.message);
+    try {
+      fs.writeFileSync(tmpLeadsFilePath, JSON.stringify(leads, null, 2));
+    } catch (tmpErr) {
+      console.error('Error writing to /tmp leads file:', tmpErr);
+    }
   }
 };
 

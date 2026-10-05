@@ -23,11 +23,17 @@ app.get('/api/health', (req, res) => {
 // Routes
 app.use('/api', leadsRouter);
 
-// Start Server
-app.listen(PORT, () => {
-  console.log(`=================================================`);
-  console.log(`🚀 KineticWorld AI Backend API Server active`);
-  console.log(`📡 URL: http://localhost:${PORT}`);
-  console.log(`🟢 Health: http://localhost:${PORT}/api/health`);
-  console.log(`=================================================`);
-});
+// Export app for Vercel & serverless runtimes
+module.exports = app;
+
+// Start Server when run directly
+if (require.main === module) {
+  app.listen(PORT, () => {
+    console.log(`=================================================`);
+    console.log(`🚀 KineticWorld AI Backend API Server active`);
+    console.log(`📡 URL: http://localhost:${PORT}`);
+    console.log(`🟢 Health: http://localhost:${PORT}/api/health`);
+    console.log(`=================================================`);
+  });
+}
+
